@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/SelectionSort.hpp
+iostream
+-
+
+/home/sina/Desktop/Sorting_Algorithems/src/SelectionSort.cpp
+SelectionSort.hpp
+/home/sina/Desktop/Sorting_Algorithems/src/SelectionSort.hpp
+
