@@ -1,4 +1,4 @@
-build/
-.vscode/
-lib/
-lib/cpp-text-table
+/build/
+/.vscode/
+/lib/
+/lib/cpp-text-table
