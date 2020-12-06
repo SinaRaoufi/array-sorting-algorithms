@@ -3,5 +3,7 @@ project(sorting_algorithmes)
 add_executable(app src/main.cpp
   src/BubbleSort.cpp
   src/InsertionSort.cpp
-  src/SelectionSort.cpp)
+  src/SelectionSort.cpp
+  src/MergeSort.cpp
+  src/QuickSort.cpp)
 include_directories(include)
