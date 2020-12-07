@@ -7,5 +7,6 @@ add_executable(app src/main.cpp
   src/MergeSort.cpp
   src/QuickSort.cpp
   src/CountingSort.cpp
+  src/RadixSort.cpp
   src/RandomNumberGenerator)
 include_directories(include)
