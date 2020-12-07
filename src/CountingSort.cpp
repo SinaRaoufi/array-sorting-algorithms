@@ -24,7 +24,7 @@ void countingSort(int arr[], size_t arraySize)
         countingArray[i] += countingArray[i - 1];
 
     int temp[arraySize];
-    for (size_t i = 0; i < arraySize; i++)
+    for (int i = arraySize - 1; i >= 0; i--)
     {
         temp[countingArray[arr[i]] - 1] = arr[i];
         countingArray[arr[i]]--;
