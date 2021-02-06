@@ -1,3 +1,0 @@
-/home/sina/Desktop/Sorting_Algorithems/build/CMakeFiles/rebuild_cache.dir
-/home/sina/Desktop/Sorting_Algorithems/build/CMakeFiles/edit_cache.dir
-/home/sina/Desktop/Sorting_Algorithems/build/CMakeFiles/app.dir
