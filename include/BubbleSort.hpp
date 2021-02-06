@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-void notOptimizedBubbleSort(int[], size_t);
-void optimizedBubbleSort(int[], size_t);
-void mostOptimizedBubbleSort(int[], size_t);
+void bubbleSort(int[], size_t);
 
 #endif
