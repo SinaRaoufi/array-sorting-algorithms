@@ -46,9 +46,7 @@ void initializeArrayWithRandomValues(int arr[], size_t arraySize)
 
 int main()
 {
-    int N;
-    cout << "Please enter size of array: ";
-    cin >> N;
+    size_t N = 10;
     int arr[N];
     initializeArrayWithRandomValues(arr, N);
 
@@ -80,7 +78,7 @@ int main()
     table.endOfRow();
 
     table.add("Selection Sort");
-    copeValues(temp, arr, N);
+    copyValues(temp, arr, N);
     time1 = elapsedTime(selectionSort, temp, sizeof(temp) / sizeof(temp[0]));
     time2 = elapsedTime(selectionSort, temp, sizeof(temp) / sizeof(temp[0]));
     table.add(to_string(time1) + 's');
@@ -88,7 +86,7 @@ int main()
     table.endOfRow();
 
     table.add("Merge Sort");
-    copeValues(arr, temp, N);
+    copyValues(arr, temp, N);
     time1 = elapsedTime(mergeSort, temp, 0, sizeof(temp) / sizeof(temp[0]) - 1);
     time2 = elapsedTime(mergeSort, temp, 0, sizeof(temp) / sizeof(temp[0]) - 1);
     table.add(to_string(time1) + 's');
@@ -96,7 +94,7 @@ int main()
     table.endOfRow();
 
     table.add("Quick Sort");
-    copeValues(arr, temp, N);
+    copyValues(arr, temp, N);
     time1 = elapsedTime(quickSort, temp, 0, sizeof(temp) / sizeof(temp[0]) - 1);
     time2 = elapsedTime(quickSort, temp, 0, sizeof(temp) / sizeof(temp[0]) - 1);
     table.add(to_string(time1) + 's');
@@ -104,7 +102,7 @@ int main()
     table.endOfRow();
 
     table.add("Counting Sort");
-    copeValues(temp, arr, N);
+    copyValues(temp, arr, N);
     time1 = elapsedTime(countingSort, temp, sizeof(temp) / sizeof(temp[0]));
     time2 = elapsedTime(countingSort, temp, sizeof(temp) / sizeof(temp[0]));
     table.add(to_string(time1) + 's');
@@ -112,7 +110,7 @@ int main()
     table.endOfRow();
 
     table.add("Radix Sort");
-    copeValues(temp, arr, N);
+    copyValues(temp, arr, N);
     time1 = elapsedTime(radixSort, temp, sizeof(temp) / sizeof(temp[0]));
     time2 = elapsedTime(radixSort, temp, sizeof(temp) / sizeof(temp[0]));
     table.add(to_string(time1) + 's');
