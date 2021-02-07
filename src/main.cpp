@@ -50,6 +50,9 @@ int main()
     int arr[N];
     initializeArrayWithRandomValues(arr, N);
 
+    cout << "Time1 ---> Unsorted array elapsed time" << endl;
+    cout << "Time2 ---> Sorted array elapsed time" << endl;
+
     TextTable table('-', '|', '+');
     table.add("Algorithm");
     table.add("Time1");
