@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project(sorting_algorithmes)
+project(sorting_algorithms)
 file(GLOB SOURCE "src/*.cpp")
 add_executable(${PROJECT_NAME}.app ${SOURCE})
 include_directories(include lib)
