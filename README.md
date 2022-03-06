@@ -34,5 +34,3 @@ After the MakeFile was created:
 ```
 make -C build
 ```
-# Contributing
-Your contributions are always welcome!
